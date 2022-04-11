@@ -6,7 +6,11 @@
 
 先安裝[Chrome for tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=zh-TW)外掛
 
-再點選[froghome-inpurt 腳本](https://github.com/KennyChou/Tampermonkey-Froghome/raw/main/dist/froghome-input.user.js)
+再點選[froghome-inpurt 腳本](https://github.com/KennyChou/Tampermonkey-Froghome/raw/main/dist/froghome-import.user.js)
+
+## 手機端參考
+
+https://froghome-tw.web.app
 
 ## 參考
 
