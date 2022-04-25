@@ -17,5 +17,5 @@
 // @require      https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js
 // @require      https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.14/vue.min.js
 // @require      https://cdnjs.cloudflare.com/ajax/libs/axios/0.26.1/axios.min.js
-// @match        https://tad.froghome.org/upload/AddDetailData.*
+// @match        *://tad.froghome.org/upload/AddDetailData.*
 // ==/UserScript==
