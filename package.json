@@ -1,6 +1,6 @@
 {
   "name": "Tampermonkey-Froghome",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "使用Vue2.x建構TamperMonkey協助輸入兩棲調查資料",
   "author": "Kenny Chou",
   "private": true,

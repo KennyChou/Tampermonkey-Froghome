@@ -13,7 +13,9 @@
           />
         </div>
         <div v-else>
-          <button type="button" @click="upload">批次自動上傳</button>
+          <button type="button" @click="upload" :disabled="disabled">
+            批次自動上傳
+          </button>
           <div style="width: 100px; display: inline-block"></div>
           <button type="button" @click="clear">清除</button>
           <table
@@ -67,6 +69,7 @@ export default {
   data: () => {
     return {
       dataset: [],
+      disabled: false,
     }
   },
   methods: {
@@ -88,6 +91,7 @@ export default {
       this.dataset = []
     },
     async upload() {
+      this.disabled = true
       for (const item of this.dataset) {
         let amount = ''
         if (item.living_type_ids == 1 || item.living_type_ids == 2) {
@@ -141,6 +145,7 @@ export default {
           this.$set(item, 'status', e)
         }
       }
+      this.disabled = false
       parent.main_top.location.reload()
     },
     sleep(d) {
